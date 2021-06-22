@@ -1,16 +1,28 @@
 {
   "action": "opened",
+  "number": 3,
   "issue": {
-    "number": 1,
+    "number": 3,
     "user": {
-      "login": "hiimbex"
-    }
+      "login": "Metamaus"
+    },
+    "body": ""
   },
   "repository": {
-    "name": "testing-things",
+    "id": 374690513,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNzQ2OTA1MTM=",
+    "name": "breakbotLib",
+    "full_name": "Metamaus/breakbotLib",
+    "private": false,
     "owner": {
-      "login": "hiimbex"
-    }
+      "login": "Metamaus"
+    },
+    "html_url": "https://github.com/Metamaus/breakbotLib",
+    "description": null,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "Metamaus"
   },
   "installation": {
     "id": 2

@@ -46,14 +46,14 @@ describe("My Probot app", () => {
       })
 
       // Test that a comment is posted
-      .post("/repos/hiimbex/testing-things/issues/1/comments", (body: any) => {
+      .post("/repos/Metamaus/breakbotLib/issues/3/comments", (body: any) => {
         done(expect(body).toMatchObject(issueCreatedBody));
         return true;
       })
       .reply(200);
 
     // Receive a webhook event
-    await probot.receive({ name: "issue", payload });
+    await probot.receive({ name: "issues", payload });
 
     expect(mock.pendingMocks()).toStrictEqual([]);
   });
