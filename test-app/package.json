@@ -5,7 +5,7 @@
   "description": "A Probot app",
   "author": "RIZZO Leonard <Leonard.Rizzo@bordeaux-inp.fr>",
   "license": "ISC",
-  "homepage": "https://github.com/Metamaus/test-app",
+  "homepage": "https://github.com/leo/test-app",
   "keywords": [
     "probot",
     "github",
@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@octokit/rest": "^18.6.0",
     "probot": "^11.0.1"
   },
   "devDependencies": {
